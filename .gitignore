@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~
+
+# Drafts / scratch
+/drafts/
+/tmp/
+*.draft.md
+
+# Secrets (whitelist anything you really need to commit)
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+
+# 保留檔
+!.gitkeep
