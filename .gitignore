@@ -1,0 +1,34 @@
+# 環境變數與敏感資料
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets/
+
+# 草稿（未發布的腳本）
+05-scripts/draft-*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python（若日後加分析腳本）
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node（若日後加工具）
+node_modules/
+
+# 暫存
+*.tmp
+*.bak
+*~
